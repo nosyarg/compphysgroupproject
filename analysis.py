@@ -4,8 +4,10 @@ from math import *
 planets = ["Sun", "Mercury", "Venus", "Earth", "Moon", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
 #mass constants
 mass = [1.989e30, 0.33e24, 4.87e24, 5.97e24, 0.073e24, 0.642e24, 1898e24, 568e24, 86.8e24, 102e24]
-#radius 
-radius = [0, 69.8e6, 108.9e6, 152.1e6, 0.406e6, 249.2e6, 816.6e6, 1514.5e6, 3003.6e6, 4545.7e6]
+#aphelion distances 
+aphelion = [0, 69.8e6, 108.9e6, 152.1e6, 0.406e6, 249.2e6, 816.6e6, 1514.5e6, 3003.6e6, 4545.7e6]
+#perihelion
+perihelion = [0, 46.0e6,107.5e6, 147.1e6, 0.363e6, 206.6e6, 740.5e6, 1352.6e6, 2741.3e6, 4444.5e6]
 #velocity m/s
 velocity = []
 for i in range(len(planets))
