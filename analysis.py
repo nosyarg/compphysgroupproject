@@ -1,3 +1,20 @@
+###########################################################################
+#   Author:  Miguel De Los Reyes, Mridu Nanda, Grayson York                                                 #
+#    Class:  PH412, Spring, 2017                                          #
+#  Helpers:  none
+#                                                                         #
+#  Program:  Planetary orbits group project                                              #
+# Due Date:  April 25, 2017                                                #
+#                                                                         #
+# Language:  Python 3                                                   #
+#      IDE:  Anaconda                                                     #
+#                                                                         #
+#  Purpose:  Determine position of planets relative to the sun over time
+#  #
+#                                                                         #
+#   "Bugs":  None
+#   #
+###########################################################################
 from astropy.constants import G
 from scipy.optimize import *
 from math import *
