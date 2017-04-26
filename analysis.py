@@ -39,7 +39,7 @@ y = []
 for i in range(len(planets)):
         x.append(0)
         y.append(aphelion[i])
-#orbital period in years:
+#orbital period in days:
 period = [87.97,224.7,365.26,1.88*365,11.86*365,29.46*365,84.01*365,164.79*365]
 #convert from days to months
 for i in range(len(period)):
